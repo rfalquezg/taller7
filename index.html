@@ -97,100 +97,56 @@
 
 <body>
   <header data-bs-theme="dark">
-    <div class="collapse text-bg-dark" id="navbarHeader">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 col-md-7 py-4">
-            <h4>About</h4>
-            <p class="text-body-secondary">Add some information about the album below, the author, or any other background context.</p>
-          </div>
-          <div class="col-sm-4 offset-md-1 py-4">
-            <h4>Contact</h4>
-            <ul class="list-unstyled">
-              <li><a href="#" class="text-white">Follow on X</a></li>
-              <li><a href="#" class="text-white">Like on Facebook</a></li>
-              <li><a href="#" class="text-white">Email me</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="navbar navbar-dark bg-dark shadow-sm">
-      <div class="container">
-        <a href="#" class="navbar-brand d-flex align-items-center">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
-            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2"
-            viewBox="0 0 24 24">
-            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
-            <circle cx="12" cy="13" r="4" />
-          </svg>
-          <strong>Album</strong>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
-          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-    </div>
+    <!-- header igual -->
   </header>
 
   <main>
-    <!-- CARRUSEL -->
+    <!-- CARRUSEL actualizado con imágenes visibles -->
     <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
-          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-          </svg>
+          <img src="https://picsum.photos/id/1018/1200/400" class="d-block w-100" alt="Slide 1">
           <div class="container">
             <div class="carousel-caption text-start">
-              <h1>Example headline.</h1>
-              <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+              <h1>Explora la Naturaleza.</h1>
+              <p>Disfruta de paisajes naturales y aventuras inolvidables.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Explorar</a></p>
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-          </svg>
+          <img src="https://picsum.photos/id/1015/1200/400" class="d-block w-100" alt="Slide 2">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Some representative placeholder content for the second slide of the carousel.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              <h1>Innovación Tecnológica.</h1>
+              <p>Descubre las últimas tendencias en tecnología y ciencia.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Ver más</a></p>
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-          </svg>
+          <img src="https://picsum.photos/id/1016/1200/400" class="d-block w-100" alt="Slide 3">
           <div class="container">
             <div class="carousel-caption text-end">
-              <h1>One more for good measure.</h1>
-              <p>Some representative placeholder content for the third slide of this carousel.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+              <h1>Viaja por el mundo.</h1>
+              <p>Explora nuevos destinos y culturas increíbles.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Comenzar</a></p>
             </div>
           </div>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+        <span class="visually-hidden">Anterior</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
+        <span class="visually-hidden">Siguiente</span>
       </button>
     </div>
 
@@ -204,59 +160,35 @@
         <div class="row g-4">
           <div class="col-md-4">
             <div class="card shadow-sm">
-              <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+              <img src="https://picsum.photos/id/1020/400/200" class="card-img-top" alt="Programación">
               <div class="card-body">
-                <h5 class="card-title">Tarjeta 1</h5>
-                <p class="card-text">Descripción breve del contenido de esta tarjeta.</p>
+                <h5 class="card-title">Curso de Programación</h5>
+                <p class="card-text">Aprende desde cero los conceptos de programación moderna.</p>
                 <a href="#" class="btn btn-primary">Ver más</a>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card shadow-sm">
-              <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+              <img src="https://picsum.photos/id/1024/400/200" class="card-img-top" alt="Diseño Web">
               <div class="card-body">
-                <h5 class="card-title">Tarjeta 2</h5>
-                <p class="card-text">Otra descripción que puede ayudar a entender el contenido.</p>
+                <h5 class="card-title">Diseño Web Profesional</h5>
+                <p class="card-text">Crea sitios atractivos y responsivos con las mejores prácticas.</p>
                 <a href="#" class="btn btn-primary">Ver más</a>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card shadow-sm">
-              <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+              <img src="https://picsum.photos/id/1035/400/200" class="card-img-top" alt="Emprendimiento">
               <div class="card-body">
-                <h5 class="card-title">Tarjeta 3</h5>
-                <p class="card-text">Un tercer ejemplo de contenido interesante.</p>
+                <h5 class="card-title">Emprendimiento Digital</h5>
+                <p class="card-text">Descubre cómo lanzar tu startup desde cero.</p>
                 <a href="#" class="btn btn-primary">Ver más</a>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- FORMULARIO DE CONTACTO -->
-    <section class="py-5">
-      <div class="container">
-        <h2 class="text-center mb-4">Contáctanos</h2>
-        <form class="row g-3">
-          <div class="col-md-6">
-            <label for="inputName" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="inputName" placeholder="Tu nombre">
-          </div>
-          <div class="col-md-6">
-            <label for="inputEmail" class="form-label">Correo electrónico</label>
-            <input type="email" class="form-control" id="inputEmail" placeholder="tucorreo@example.com">
-          </div>
-          <div class="col-12">
-            <label for="inputMessage" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="inputMessage" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
-          </div>
-          <div class="col-12 text-center">
-            <button type="submit" class="btn btn-primary mt-3">Enviar</button>
-          </div>
-        </form>
       </div>
     </section>
   </main>
